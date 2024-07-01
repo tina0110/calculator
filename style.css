@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.heading {
+    background: black;
+    height: 4rem;
+    color:#efd5ff;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+#calculator{
+    width: 40rem;
+    height: 34rem;
+    padding: 2rem;
+    border: 3px solid black;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    box-shadow: 3rem 3rem 2rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1.0fr 1fr 1fr 1fr 1fr 1fr;
+}
+#display{
+    width: 96%;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 30px;
+}
+.first{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width:96%;
+    margin: 10px;
+}
+.first p {
+    padding-top: 17px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.first button {
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width:96%;
+    margin: 10px;
+}
+.second button {
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width:96%;
+    margin: 10px;
+}
+.third button {
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width:96%;
+    margin: 10px;
+}
+.fourth button {
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 25px;
+}
+.fifth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width:96%;
+    margin: 10px;
+}
+.fifth button {
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 2rem 2rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+footer {
+    background: black;
+    height: 3rem;
+    color:#efd5ff;
+    font-size: large;
+    text-align: center;
+}
